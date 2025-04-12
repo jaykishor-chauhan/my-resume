@@ -23,54 +23,46 @@ const Header: React.FC = () => {
         </div>
       </div>
       
-      <div className="flex flex-wrap gap-4 text-sm mt-4 bg-resume-light/70 p-3 rounded-lg border border-resume-secondary/10">
-        <div className="flex items-center gap-1">
+      <div className="flex flex-wrap gap-4 mt-4 justify-center md:justify-start">
+        <a href="https://maps.google.com/?q=Bangalore,India" 
+           className="flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-resume-light to-blue-50 border border-resume-secondary/10 shadow-sm hover:shadow-md transition-all transform hover:-translate-y-1 text-resume-dark" 
+           target="_blank" 
+           rel="noopener noreferrer">
           <MapPin size={16} className="text-resume-secondary" />
           <span>Bangalore, India</span>
-        </div>
+        </a>
         
-        <div className="flex items-center gap-1">
+        <a href="tel:+918073127085" 
+           className="flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-resume-light to-blue-50 border border-resume-secondary/10 shadow-sm hover:shadow-md transition-all transform hover:-translate-y-1 text-resume-dark" 
+           target="_blank" 
+           rel="noopener noreferrer">
           <Phone size={16} className="text-resume-secondary" />
-          <a href="tel:+918073127085" className="hover:text-resume-primary transition-colors">
-            +91 8073127085
-          </a>
-        </div>
+          <span>+91 8073127085</span>
+        </a>
         
-        <div className="flex items-center gap-1">
+        <a href="https://cjaykishor.com.np" 
+           className="flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-resume-light to-blue-50 border border-resume-secondary/10 shadow-sm hover:shadow-md transition-all transform hover:-translate-y-1 text-resume-dark" 
+           target="_blank" 
+           rel="noopener noreferrer">
           <Globe size={16} className="text-resume-secondary" />
-          <a 
-            href="https://cjaykishor.com.np" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="hover:text-resume-primary transition-colors"
-          >
-            cjaykishor.com.np
-          </a>
-        </div>
+          <span>cjaykishor.com.np</span>
+        </a>
         
-        <div className="flex items-center gap-1">
+        <a href="https://linkedin.com/in/jaykishor-chauhan" 
+           className="flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-resume-light to-blue-50 border border-resume-secondary/10 shadow-sm hover:shadow-md transition-all transform hover:-translate-y-1 text-resume-dark" 
+           target="_blank" 
+           rel="noopener noreferrer">
           <Linkedin size={16} className="text-resume-secondary" />
-          <a 
-            href="https://linkedin.com/in/jaykishor-chauhan" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="hover:text-resume-primary transition-colors"
-          >
-            linkedin.com/in/jaykishor-chauhan
-          </a>
-        </div>
+          <span>jaykishor-chauhan</span>
+        </a>
         
-        <div className="flex items-center gap-1">
+        <a href="https://github.com/jaykishor-chauhan" 
+           className="flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-resume-light to-blue-50 border border-resume-secondary/10 shadow-sm hover:shadow-md transition-all transform hover:-translate-y-1 text-resume-dark" 
+           target="_blank" 
+           rel="noopener noreferrer">
           <Github size={16} className="text-resume-secondary" />
-          <a 
-            href="https://github.com/jaykishor-chauhan" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="hover:text-resume-primary transition-colors"
-          >
-            github.com/jaykishor-chauhan
-          </a>
-        </div>
+          <span>jaykishor-chauhan</span>
+        </a>
       </div>
     </header>
   );
