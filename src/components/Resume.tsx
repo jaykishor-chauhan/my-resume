@@ -8,11 +8,13 @@ import Skills from './Skills';
 import Certifications from './Certifications';
 import Achievements from './Achievements';
 import Footer from './Footer';
+import { Separator } from './ui/separator';
 
 const Resume: React.FC = () => {
   return (
-    <div className="max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-lg">
+    <div className="max-w-4xl mx-auto p-6 bg-white shadow-xl rounded-lg border border-resume-secondary/20 print:shadow-none print:border-none">
       <Header />
+      <Separator className="my-5 bg-resume-secondary/30" />
       <Objective />
       <Education />
       <Projects />
@@ -27,6 +29,7 @@ const Resume: React.FC = () => {
         </div>
       </div>
       
+      <Separator className="my-5 bg-resume-secondary/30" />
       <Footer />
     </div>
   );

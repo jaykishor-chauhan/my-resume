@@ -64,11 +64,11 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				resume: {
-					primary: '#1e40af',
-					secondary: '#3b82f6',
-					light: '#f0f7ff',
-					dark: '#082f49',
-					accent: '#0e7490',
+					primary: '#1e40af',    // Deep blue
+					secondary: '#3b82f6',  // Medium blue
+					light: '#f0f7ff',      // Very light blue
+					dark: '#082f49',       // Very dark blue
+					accent: '#0e7490',     // Teal/cyan accent
 				}
 			},
 			borderRadius: {
@@ -107,7 +107,11 @@ export default {
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'fade-in': 'fade-in 0.5s ease-out',
 				'slide-in': 'slide-in 0.5s ease-out'
-			}
+			},
+			// Add print-specific styles
+			screens: {
+				'print': {'raw': 'print'},
+			},
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
