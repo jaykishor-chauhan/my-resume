@@ -16,8 +16,8 @@ const Header: React.FC = () => {
         <div className="mt-2 md:mt-0">
           <div className="flex items-center gap-1 text-resume-accent">
             <Mail size={16} className="text-resume-secondary" />
-            <a href="mailto:jaykishor@example.com" className="hover:text-resume-primary transition-colors">
-              jaykishor@example.com
+            <a href="mailto:jaykishorchauhan2018.com" className="hover:text-resume-primary transition-colors">
+              jaykishorchauhan2018@gmail.com
             </a>
           </div>
         </div>
@@ -32,36 +32,13 @@ const Header: React.FC = () => {
           <span>Bangalore, India</span>
         </a>
         
+        
         <a href="tel:+918073127085" 
            className="flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-resume-light to-blue-50 border border-resume-secondary/10 shadow-sm hover:shadow-md transition-all transform hover:-translate-y-1 text-resume-dark" 
            target="_blank" 
            rel="noopener noreferrer">
           <Phone size={16} className="text-resume-secondary" />
           <span>+91 8073127085</span>
-        </a>
-        
-        <a href="https://cjaykishor.com.np" 
-           className="flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-resume-light to-blue-50 border border-resume-secondary/10 shadow-sm hover:shadow-md transition-all transform hover:-translate-y-1 text-resume-dark" 
-           target="_blank" 
-           rel="noopener noreferrer">
-          <Globe size={16} className="text-resume-secondary" />
-          <span>cjaykishor.com.np</span>
-        </a>
-        
-        <a href="https://linkedin.com/in/jaykishor-chauhan" 
-           className="flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-resume-light to-blue-50 border border-resume-secondary/10 shadow-sm hover:shadow-md transition-all transform hover:-translate-y-1 text-resume-dark" 
-           target="_blank" 
-           rel="noopener noreferrer">
-          <Linkedin size={16} className="text-resume-secondary" />
-          <span>jaykishor-chauhan</span>
-        </a>
-        
-        <a href="https://github.com/jaykishor-chauhan" 
-           className="flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-resume-light to-blue-50 border border-resume-secondary/10 shadow-sm hover:shadow-md transition-all transform hover:-translate-y-1 text-resume-dark" 
-           target="_blank" 
-           rel="noopener noreferrer">
-          <Github size={16} className="text-resume-secondary" />
-          <span>jaykishor-chauhan</span>
         </a>
       </div>
     </header>

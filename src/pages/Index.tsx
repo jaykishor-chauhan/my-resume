@@ -1,5 +1,3 @@
-
-import React from 'react';
 import Resume from '@/components/Resume';
 import { Download, Printer } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -23,7 +21,7 @@ const Index = () => {
         <Button 
           variant="outline" 
           className="bg-white shadow-md hover:bg-resume-light flex items-center gap-2"
-          onClick={() => window.open('/JaykishorResume.pdf', '_blank')}
+          onClick={() => window.open('/my-resume.pdf', '_blank')}
         >
           <Download size={16} />
           Download PDF
